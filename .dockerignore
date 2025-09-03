@@ -1,0 +1,7 @@
+# Ignora archivos innecesarios para la imagen Docker
+README.md
+*.md
+*.log
+.git/
+.gitignore
+.vscode/

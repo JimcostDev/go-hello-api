@@ -1,0 +1,72 @@
+# -------------------------
+# Artefactos de compilación
+# -------------------------
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test/build outputs
+*.test
+*.out
+coverage.out
+
+# Carpeta de binarios local (si la usas)
+bin/
+_build/
+out/
+
+# -------------------------
+# Cachés y dependencias
+# -------------------------
+# Directorio con módulos descargados (no es común commitearlo)
+pkg/mod/
+
+# Vendor (descomenta si NO quieres versionar vendor/)
+vendor/
+
+# go.work (opcional según si usas workspaces)
+go.work
+go.work.sum
+
+# -------------------------
+# Archivos generados / docs
+# -------------------------
+# Si generas docs automáticamente (p. ej. swag), ignora temporalmente:
+docs/
+
+# -------------------------
+# Archivos de entorno y logs
+# -------------------------
+.env
+.env.local
+.env.*.local
+*.log
+logs/
+
+# -------------------------
+# Editores / IDE
+# -------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Sistema operativo / otros
+# -------------------------
+.DS_Store
+Thumbs.db
+*~
+*.tmp
+*.temp
+
+# -------------------------
+# Notas importantes
+# -------------------------
+# No ignores go.sum: es buena práctica commitearlo para reproducibilidad.
+# Si prefieres versionar el directorio vendor/ (p. ej. para deployment offline) 
+# comenta/borra la línea '# vendor/' para no ignorarlo.
