@@ -1,7 +1,7 @@
 # Dockerfile para go-hello-api
 
 # Imagen base oficial de Go
-FROM golang:1.25-alpine AS builder
+FROM golang:latest AS builder
 
 WORKDIR /app
 
